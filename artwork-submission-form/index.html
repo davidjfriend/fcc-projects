@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Artwork Submission Form</title>
+</head>
+	
+<body>
+    <h1>Art Gallery</h1>
+    <h2>Artwork Submission Form</h2>
+
+    <p>Submission requirements:</p>
+    <ul>
+        <li>Images must be in JPEG format.</li>
+        <li>Image size must be at least 500 x 500 pixels.</li>
+        <li>Maximum file size of 5MB.</li>
+    </ul>
+  
+    <p>Describe your artwork:</p>
+    <form>
+        <label for="traditional"><input id="traditional" type="radio" name="traditional-digital" value="traditional"> Traditional</label>
+        <label for="digital"><input id="digital" type="radio" name="traditional-digital" value="digital"> Digital</label>
+		<br />
+        <label for="abstract"><input id="abstract" type="checkbox" name="art-style" value="abstract"> Abstract</label>
+        <label for="contemporary"><input id="contemporary" type="checkbox" name="art-style" value="contemporary"> Contemporary</label>
+        <label for="renaissance"><input id="renaissance" type="checkbox" name="art-style" value="renaissance"> Renaissance</label>
+		<br /> 
+        <input type="text" placeholder="artwork URL" required>
+        <button type="submit">Submit</button>
+    </form>
+</body> 
+
+</html> 
